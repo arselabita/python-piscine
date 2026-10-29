@@ -11,13 +11,13 @@ def shrink(word):
 def enlarge(word):
 	if not word:
 		print("none")
-	length = len(word)
-	for w in word:
+	while len(word) < 8:
+		word += 'Z'
+	return word
 
 if len(sys.argv) -1< 1:
 	print("none")
 	sys.exit(1)
-
 
 user_input = sys.argv
 for s in user_input[1:]:

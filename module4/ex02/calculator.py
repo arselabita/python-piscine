@@ -6,12 +6,12 @@ try:
 
 	print("Thank you!")
 
-	multiply = num1 * num2
+	# multiply = num1 * num2
 	substract = num1 - num2
 	divide = num1 / num2
 	add = num1 + num2
 
-	print(f"{num1} * {num2} = {multiply}")
+	print(f"{num1} * {num2} = { num1 * num2}")
 	print(f"{num1} - {num2} = {substract}")
 	print(f"{num1} / {num2} = {divide}")
 	print(f"{num1} + {num2} = {add}")
