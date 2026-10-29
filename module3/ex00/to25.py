@@ -5,7 +5,7 @@ try:
 	if number < 25:
 		i = number
 		while i <= 25:
-			print("Inside the loop, my variable is ", i)
+			print(f"Inside the loop, my variable is {i}")
 			i+=1
 	else:
 		print("Error")

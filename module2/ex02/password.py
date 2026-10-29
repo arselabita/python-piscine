@@ -2,8 +2,7 @@
 
 password = "Python is awesome"
 
-input = str
-(input("Enter a password: ")
+input = input("Enter a password: ")
 if input == password:
 	print("ACCESS GRANTED")
 else:
